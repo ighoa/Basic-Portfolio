@@ -35,21 +35,6 @@ body {
 		margin-bottom: 20px;	
 		}
 
-	input[type=text] {
-		width: 78%;
-		padding: 12px 20px;
-		margin: 10px 70px;
-		display: inline-block;
-		border: 1px solid #ccc;
-		}
-	input[type=submit] {
-		width: 18%;
-		background-color: #4aaaa5;
-		color: white;
-		padding: 14px 12px;
-		margin: 10px 70px;
-		cursor: pointer;
-		}
 	#Portfolio {
 		position: absolute;
 		top: 20px;
@@ -76,7 +61,30 @@ body {
 		height: 800px;
 		margin-bottom: 20px;
 		}
-	
+	label {
+		margin-left: 70px;
+	}
+	input[type=text] {
+		width: 78%;
+		padding: 12px 20px;
+		margin-left: 70px;
+		margin: 10px 70px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		}
+	input[type=submit] {
+		width: 18%;
+		background-color: #4aaaa5;
+		color: white;
+		padding: 14px 12px;
+		margin: 10px 70px;
+		cursor: pointer;
+		}
+	textarea[type=text] {
+		margin-left: 70px;
+		width: 78%;
+		height: 200px;
+	}
 		h1.Aboutme, h1.Portfolio, h1.Contact{
 			margin-left: 70px;
 			padding-top: 20px;
@@ -91,6 +99,7 @@ body {
 			float: left;
 			height: 200px;
 			margin-left: 70px;
+			margin-right: 10px;
 			}
 		p  {
 			font-size: 18px;
